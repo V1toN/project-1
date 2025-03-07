@@ -1,0 +1,16 @@
+:root {
+  --bodyBackgroundColor: #181818;
+  --lightBackgroundColor: #ffffff;
+  --buttonColor: #4452fe;
+  --firstTextColor: #000000;
+  --secondTextColor: #5c5c5c;
+  --lightTextColor: #ffffff;
+}
+@font-face {
+  font-family: "noto-sans";
+  src: url(../assets/font/NotoSansGeorgian-Regular.ttf);
+}
+@font-face {
+  font-family: "firago";
+  src: url(../assets/font/FiraGO-Regular.ttf);
+}
