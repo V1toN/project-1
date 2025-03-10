@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: "firago", "noto-sans";
 }
@@ -19,8 +14,8 @@ header {
 header .headerContainer {
   display: flex;
   justify-content: space-between;
-  padding: 0 241px;
-  max-width: 1440px;
+  padding: 0 20px;
+  max-width: 1120px;
   width: 100%;
   margin: 0 auto;
 }
@@ -32,26 +27,24 @@ header .headerContainer nav {
 header .headerContainer nav ul {
   display: flex;
   gap: 31px;
-  list-style: none;
 }
 
 .headerContainer nav a {
   text-decoration: none;
   color: var(--lightTextColor);
 }
-.butnContainer {
-  width: 139px;
-  height: 52px;
-  padding: 4px 36px;
-
-  background-color: var(--bodyBackgroundColor);
-  color: var(--lightTextColor);
-  border-color: white;
-  border-width: 1px;
-  cursor: pointer;
+.linkContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 186px;
 }
-.butnContainer a {
+
+.loginLink {
+  padding: 13.5px 46px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--lightTextColor);
+  cursor: pointer;
   color: var(--lightTextColor);
-  font-weight: 17px;
-  text-decoration: none;
+  box-shadow: 0px 4px 31px 0px #00000026;
 }
